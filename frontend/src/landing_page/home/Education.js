@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Eduction() {
+function Education() {
     return (  
         <h1>Education</h1>
     );
