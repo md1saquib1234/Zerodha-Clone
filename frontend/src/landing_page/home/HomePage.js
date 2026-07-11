@@ -8,20 +8,20 @@ import OpenAccount from '../OpenAccount';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
-console.log({Navbar, Hero, Awards, Stats, Pricing, Education, OpenAccount, Footer});
+
 
 function HomePage() {
     return ( 
         <>
         
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
         <Awards />
         <Stats />
         <Pricing />
         <Education />
         <OpenAccount />
-        <Footer />
+        {/* <Footer /> */}
         </>
      );
 }
