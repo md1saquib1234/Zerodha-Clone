@@ -1,12 +1,27 @@
-import React from 'react';
+import React from "react";
 
-function LeftSection() {
-    return ( 
-        <div>
-            <h2>Left Section</h2>
-            <p>This is the left section of the products page.</p>
+function LeftSection({
+  imageuRL,
+  productName,
+  productDescription,
+  tryDemo,
+  learnMore,
+  googlePlay,
+  appStore,
+}) {
+  return (
+    <div className="container">
+        <div className="row">
+            <div className="col-6 p-3">
+                <img src={imageURL} />
+            </div>
+            <div className="col-6">
+              <h1></h1>
+            </div>
         </div>
-     );
+      
+    </div>
+  );
 }
 
 export default LeftSection;
