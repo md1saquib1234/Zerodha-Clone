@@ -16,7 +16,14 @@ function LeftSection({
                 <img src={imageURL} />
             </div>
             <div className="col-6">
-              <h1></h1>
+              <h1>{productName}</h1>
+              <p>{productDescription}</p>
+              <a href={tryDemo}>Try Demo</a>
+              <a href={learnMore}>Learn More</a>
+              <a href={googlePlay}><img src="media/images/googlePlayBadge.svg"/></a>
+              <a href={appStore}>
+                <img src="media/images/googlePlayBadge.svg"/>
+              </a>
             </div>
         </div>
       
